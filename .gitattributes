@@ -1,0 +1,23 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+.vscode
+ML_training/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Environments (Crucial for your Flask/FastAPI projects)
+.venv/
+env/
+venv/
+ENV/
+
+# Datasets & Large Weights (Crucial for ML)
+*.csv
+*.json
+*.h5
+*.pth
+*.pkl
+data/vehical_Emissions_data_set
+# Secrets (Don't leak your Gemini API key!)
+.env
